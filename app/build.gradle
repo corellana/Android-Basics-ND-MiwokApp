@@ -26,4 +26,14 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.3.0'
     compile 'com.android.support:support-v4:23.3.0'
     compile 'com.android.support:design:23.3.0'
+
+
+}
+
+android {
+    compileSdkVersion 27  // usually needs to be consistent with major support libs used, but not necessary
+}
+
+ext {
+    supportLibVersion = '27.1.1'  // variable that can be referenced to keep support libs consistent
 }
